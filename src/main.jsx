@@ -11,7 +11,7 @@ import store from './Store.js';
 createRoot(document.getElementById('root')).render(
   <StrictMode> 
 
-<Provider store={Store}>
+<Provider store={store}>
     <App />
  </Provider>
   </StrictMode>,
